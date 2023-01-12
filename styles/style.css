@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* common styles */
 body{
@@ -17,6 +18,7 @@ main{
     /* height: 680px; */
     border-radius: 5px;
     padding: 33px 30px 40px;
+    margin-top: 20px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -68,15 +70,50 @@ hr{
     width: 177px;
     height: 117px;
 }
-.blog-title{
+.blog-title, .course-title{
     font-size: 20px;
 }
-.blog-text .blog-author{
+.blog-info .blog-author{
     color: #9F9F9F;
     font-size: 15px;
 }
-.blog-text a{
+.blog-info a{
     text-decoration: none;
     font-size: 16px;
     color: #562EFF;
+}
+
+/* course styles */
+
+.courses{
+    display: flex;
+    /* justify-content: space-between; */
+    /* overflow: hidden; */
+    gap: 20px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.course-author a{
+    text-decoration: none;
+    color: #ED6B4F;
+}
+.fa-star{
+    font-size: 12px;
+}
+.filled{
+    color: #FFC014;
+}
+.empty{
+    color: #AEAEAE;
+    opacity: 0.25;
 }
