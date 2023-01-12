@@ -14,7 +14,7 @@ main{
 .container{
     background-color: white;
     width: 870px;
-    height: 680px;
+    /* height: 680px; */
     border-radius: 5px;
     padding: 33px 30px 40px;
 }
@@ -73,7 +73,7 @@ hr{
 }
 .blog-text .blog-author{
     color: #9F9F9F;
-    font-size: 14px;
+    font-size: 15px;
 }
 .blog-text a{
     text-decoration: none;
